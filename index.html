@@ -11,44 +11,46 @@
 </head>
 <body>
     <h1>Lewis University Interactive map</h1>
+    <div class="total-container">
 
-    <section id="campus" class="d-flex align-items-center">
-        <div class="">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
-            <image width="1200" height="600" xlink:href="croppedCampusMap.jpg" class="">
-            </image>
-            <a onclick="">  
-              <rect x="551" y="237" fill="#ff6975" opacity="40%" width="73" height="48" />
-            </a>
-          </svg>
+        <div class="box map">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
+                <image width="1200" height="600" xlink:href="croppedCampusMap.jpg" class=""></image>
+             </svg>
         </div>
-
-    <!--SVG for lower floor-->
-    <section id="asLower" class="d-flex align-items-center">
-        <div class="hidden">
+        
+        <div class="box stack-clickable">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
+                <rect class="area" x="551" y="234" width="73" height="58" fill="#ff6975" opacity="0%"></rect>
+            </svg>
+        </div>
+        
+        <!--SVG for lower floor-->
+        <div class="box hidden">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
             <image width="1200" height="600" xlink:href="ASLowerFloor.jpg" class="">
             </image>
             </svg>
         </div>
 
-    <!--SVG for 1st floor-->
-    <section id="asFirst" class="d-flex align-items-center">
-        <div class="hidden">
+        <!--SVG for 1st floor-->
+        <div class="box page stack-zoomed">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
-            <image width="1200" height="600" xlink:href="ASFirstFloor.jpg" class="">
+            <image width="1200" height="600" xlink:href="ASFirstFloor.jpg">
             </image>
             </svg>
         </div>
 
-    <!--SVG for 2nd floor-->
-    <section id="asSecond" class="d-flex align-items-center">
-        <div class="hidden">
+        <!--SVG for 2nd floor-->
+        <div class="box hidden">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
             <image width="1200" height="600" xlink:href="ASSecondFloor.jpg" class="">
             </image>
             </svg>
         </div>
+    </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
