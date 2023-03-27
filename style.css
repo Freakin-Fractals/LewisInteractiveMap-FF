@@ -10,7 +10,9 @@
     left: 0;
     opacity: 0.8;  /* for demo purpose  */
 }
+
 .stack-clickable{
+    position: relative;
     z-index: 9;
 }
 
@@ -28,4 +30,352 @@
 
 .hidden{
     visibility: hidden;
+}
+
+.arts-sciences{
+    position: absolute;
+    top: 40%;
+    left: 44%;
+}
+
+.welcome-center{
+    position: absolute;
+    top: 40%;
+    left: 51%;
+}
+
+.harold-white{
+    position: absolute;
+    top: 40%;
+    left: 34.5%;
+}
+
+.benilde-hall{
+    position: absolute;
+    top: 72%;
+    left: 48%;
+}
+
+.james-gaffney{
+    position: absolute;
+    top: 72%;
+    left: 39%;
+}
+
+.learning-center{
+    position: absolute;
+    top: 47%;
+    left: 47.5%;
+}
+
+.cody-hall{
+    position: absolute;
+    top: 81%;
+    left: 56%;
+}
+
+.delasalle-hall{
+    position: absolute;
+    top: 72%;
+    left: 43.5%;
+}
+
+.dorothy-day{
+    position: absolute;
+    top: 85%;
+    left: 36%;
+}
+
+.founders-hall{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+}
+
+.memorial-hall{
+    position: absolute;
+    top: 42.5%;
+    left: 41%;
+}
+
+.mcnamara-hall{
+    position: absolute;
+    top: 34.5%;
+    left: 46.5%;
+}
+
+.mother-teresa{
+    position: absolute;
+    top: 81%;
+    left: 38%;
+}
+
+.north-hall{
+    position: absolute;
+    top: 58%;
+    left: 47%;
+}
+
+.fine-arts{
+    position: absolute;
+    top: 37%;
+    left: 39%;
+}
+
+.john-paul{
+    position: absolute;
+    top: 81%;
+    left: 41.5%;
+}
+
+.power-house{
+    position: absolute;
+    top: 73.5%;
+    left: 33%;
+}
+
+.ryan-hall{
+    position: absolute;
+    top: 80.5%;
+    left: 48%;
+}
+
+.sancta-alberta{
+    position: absolute;
+    top: 48%;
+    left: 45%;
+}
+
+.sheil-hall{
+    position: absolute;
+    top: 54%;
+    left: 41%;
+}
+
+.south-hall{
+    position: absolute;
+    top: 72%;
+    left: 36%;
+}
+
+.sports-center{
+    position: absolute;
+    top: 53.5%;
+    left: 38%;
+}
+
+.stritch-hall{
+    position: absolute;
+    top: 35%;
+    left: 48%;
+}
+
+.west-hall{
+    position: absolute;
+    top: 69.5%;
+    left: 32.5%;
+}
+
+.stcharles-borromeo{
+    position: absolute;
+    top: 9.5%;
+    left: 53.5%;
+}
+
+.fitzpatrick-house{
+    position: absolute;
+    top: 90%;
+    left: 62%;
+}
+
+.lot-A{
+    position: absolute;
+    top: 38%;
+    left: 53%;
+}
+
+.lot-AA{
+    position: absolute;
+    top: 41%;
+    left: 54%;
+}
+
+.lot-B{
+    position: absolute;
+    top: 34%;
+    left: 49%;
+}
+
+.lot-BB{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.lot-C{
+    position: absolute;
+    top: 29%;
+    left: 45%;
+}
+
+.lot-D{
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+
+.lot-E{
+    position: absolute;
+    top: 35%;
+    left: 38%;
+}
+
+.lot-F{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.lot-G{
+    position: absolute;
+    top: 44%;
+    left: 38.5%;
+}
+
+.lot-GG{
+    position: absolute;
+    top: 54%;
+    left: 35%;
+}
+
+.lot-L{
+    position: absolute;
+    top: 55%;
+    left: 52%;
+}
+
+.lot-M{
+    position: absolute;
+    top: 62%;
+    left: 47%;
+}
+
+.lot-MM{
+    position: absolute;
+    top: 62.5%;
+    left: 43%;
+}
+
+.lot-N{
+    position: absolute;
+    top: 64%;
+    left: 35%;
+}
+
+.lot-NN{
+    position: absolute;
+    top: 72%;
+    left: 30%;
+}
+
+.lot-O{
+    position: absolute;
+    top: 74.5%;
+    left: 45%;
+}
+
+.lot-P{
+    position: absolute;
+    top: 63%;
+    left: 39%;
+}
+
+.lot-Q{
+    position: absolute;
+    top: 72%;
+    left: 46.5%;
+}
+
+.lot-S{
+    position: absolute;
+    top: 67.5%;
+    left: 50%;
+}
+
+.lot-SB1{
+    position: absolute;
+    top: 12%;
+    left: 57.2%;
+}
+
+.lot-SB2{
+    position: absolute;
+    top: 3.5%;
+    left: 54%;
+}
+
+.lot-SB3{
+    position: absolute;
+    top: 3.5%;
+    left: 50.5%;
+}
+
+.lot-SB4{
+    position: absolute;
+    top: 4%;
+    left: 47.5%;
+}
+
+.lot-SB5{
+    position: absolute;
+    top: 9.5%;
+    left: 48.5%;
+}
+
+.lot-T{
+    position: absolute;
+    top: 79%;
+    left: 52%;
+}
+
+.lot-U{
+    position: absolute;
+    top: 78%;
+    left: 39.5%;
+}
+
+.lot-V{
+    position: absolute;
+    top: 72.5%;
+    left: 34.5%;
+}
+
+.lot-W{
+    position: absolute;
+    top: 64.5%;
+    left: 55.5%;
+}
+
+.lot-X{
+    position: absolute;
+    top: 81%;
+    left: 44%;
+}
+
+.lot-Y{
+    position: absolute;
+    top: 81%;
+    left: 36%;
+}
+
+.lot-Z{
+    position: absolute;
+    top: 90%;
+    left: 42.5%;
+}
+
+.lot-ZZ{
+    position: absolute;
+    top: 89.5%;
+    left: 36%;
 }
