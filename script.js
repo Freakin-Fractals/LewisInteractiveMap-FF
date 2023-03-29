@@ -6,23 +6,22 @@ var pages = document.querySelectorAll(".page");
 var area = document.querySelectorAll(".area");
 var map = document.querySelector(".map");
 var label = document.querySelectorAll(".unselectable");
+//Buttons
+var button = document.querySelectorAll(".button");
+var back = document.querySelector(".back");
 
 for (var i = 0; i < pages.length; i++) {  
-  addListeners(pages[i], area[i], map);
+  addListeners(pages[i], area[i], map, back);
 }
 
-function addListeners(page, area, map) {
-  
+function addListeners(page, area, map, back) {
+  console.log(back)
   area.addEventListener("click", function() {
-    grow(page, area, map);
+    grow(page, area, map, back);
   });
-  
-  page.addEventListener("click", function() {
-    shrink(page, area, map);
-  });  
 }
 
-function grow(hero, area, map) {
+function grow(hero, area, map, back) {
     
     var clone = hero.cloneNode(true);
         
@@ -32,7 +31,6 @@ function grow(hero, area, map) {
     gsap.set(hero, { visibility: "hidden" });
     gsap.set(clone, { position: "absolute", margin: 0 });
     
-    console.log(clone);
     body.appendChild(clone);  
         
     var style = {
@@ -52,7 +50,13 @@ function grow(hero, area, map) {
     function onComplete() {
       
       gsap.set([map, label], { visibility: "hidden" });
+      gsap.set(button, { visibility: "visible" });
       gsap.set(hero, { visibility: "visible" });
+
+      back.addEventListener("click", function() {
+        shrink(hero, area, map);
+      }); 
+      
       body.removeChild(clone);
     }
   }
@@ -65,10 +69,11 @@ function shrink(hero, area, map) {
     var to = calculatePosition(area);
   
     gsap.set(hero, { visibility: "hidden" });
+    gsap.set(button, { visibility: "hidden" });
     gsap.set([map, label], { visibility: "visible" });
     gsap.set(clone, { position: "absolute", margin: 0 });
     
-    console.log(clone);
+
     body.appendChild(clone);  
         
     var style = {

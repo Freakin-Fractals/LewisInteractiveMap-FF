@@ -37,7 +37,15 @@
     z-index: 20;
 }
 
+.stack-button {
+    z-index: 25;
+}
+
 .page {
+    visibility: hidden;
+}
+
+.button{
     visibility: hidden;
 }
 
