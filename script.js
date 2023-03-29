@@ -5,6 +5,7 @@ var body  = document.body;
 var pages = document.querySelectorAll(".page");
 var area = document.querySelectorAll(".area");
 var map = document.querySelector(".map");
+var label = document.querySelectorAll(".unselectable");
 
 for (var i = 0; i < pages.length; i++) {  
   addListeners(pages[i], area[i], map);
@@ -50,7 +51,7 @@ function grow(hero, area, map) {
       
     function onComplete() {
       
-      gsap.set(map, { visibility: "hidden" });
+      gsap.set([map, label], { visibility: "hidden" });
       gsap.set(hero, { visibility: "visible" });
       body.removeChild(clone);
     }
@@ -64,7 +65,7 @@ function shrink(hero, area, map) {
     var to = calculatePosition(area);
   
     gsap.set(hero, { visibility: "hidden" });
-    gsap.set(map, { visibility: "visible" });
+    gsap.set([map, label], { visibility: "visible" });
     gsap.set(clone, { position: "absolute", margin: 0 });
     
     console.log(clone);

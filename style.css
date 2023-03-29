@@ -11,9 +11,22 @@
     opacity: 0.8;  /* for demo purpose  */
 }
 
-.stack-clickable{
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.stack-label{
     position: relative;
     z-index: 9;
+}
+
+.stack-clickable{
+    z-index: 12;
 }
 
 .stack-shrunk {
