@@ -41,6 +41,10 @@
     z-index: 25;
 }
 
+.click {
+    opacity: 0%;
+}
+
 .page {
     visibility: hidden;
 }
