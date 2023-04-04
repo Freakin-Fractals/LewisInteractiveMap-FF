@@ -231,7 +231,7 @@ function goUp(currFloor, upperFloor, back, area, map, backFun, downFun){
     dirFuns = identifyFloors(findFloors(upperFloor), upperFloor, up, down, back, area, map, upperFun);
     
     upperFun = function() {
-      shrink(upperFloor, area, map, up, down, dirfuns);
+      shrink(upperFloor, area, map, up, down, dirFuns);
     }
     back.addEventListener("click", upperFun, {once : true}, true); 
   }
@@ -271,7 +271,7 @@ function goDown(currFloor, lowerFloor, back, area, map, backFun, upFun){
     
     gsap.set(down,{ visibility: "hidden" });
     back.removeEventListener("click", backFun, {once : true}, true);
-    
+
     function lowerFun() {} 
 
     dirFuns = identifyFloors(findFloors(lowerFloor), lowerFloor, up, down, back, area, map, lowerFun);
