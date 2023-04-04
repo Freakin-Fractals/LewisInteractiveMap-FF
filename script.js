@@ -62,7 +62,15 @@ function grow(hero, area, map, back, up, down) {
     backFun = function() {
       shrink(hero, area, map, up, down, dirFuns);
     }
+
     back.addEventListener("click", backFun, {once : true}, true); 
+    if (dirFuns[0] !== 'null'){
+      up.addEventListener("click", dirFuns[0], {once : true}, true);
+    }
+    if (dirFuns[1] !== 'null'){
+      down.addEventListener("click", dirFuns[1], {once : true}, true);
+    }
+    
   }
 }
   
@@ -151,34 +159,20 @@ function identifyFloors(floorList, currFloor, up, down, back, area, map, backFun
     lower = false;
   } 
 
-  if (upper == true && lower == true){
-    gsap.set(up, { visibility: "visible" });
-    gsap.set(down, { visibility: "visible" });
-    
-    upFun = function() {
-      goUp(floorList[index], floorList[index + 1], back, area, map, backFun, downFun);
-    }
-    downFun = function() {
-      goDown(floorList[index], floorList[index - 1], back, area, map, backFun, upFun);
-    }
-    up.addEventListener("click", upFun, {once : true}, true);
-    down.addEventListener("click", downFun, {once : true}, true);
-
-  }else if (upper == true){
+  if (upper == true){
     gsap.set(up, { visibility: "visible" });
 
     upFun = function() {
       goUp(floorList[index], floorList[index + 1], back, area, map, backFun, downFun);
     }
-    up.addEventListener("click", upFun, {once : true}, true);
 
-  }else if (lower == true){
+  }
+  if (lower == true){
     gsap.set(down, { visibility: "visible" });
 
     downFun = function() {
       goDown(floorList[index], floorList[index - 1], back, area, map, backFun, upFun);
     }
-    down.addEventListener("click", downFun, {once : true}, true);
 
   }
   return [upFun, downFun]
@@ -233,7 +227,14 @@ function goUp(currFloor, upperFloor, back, area, map, backFun, downFun){
     upperFun = function() {
       shrink(upperFloor, area, map, up, down, dirFuns);
     }
-    back.addEventListener("click", upperFun, {once : true}, true); 
+
+    back.addEventListener("click", upperFun, {once : true}, true);
+    if (dirFuns[0] !== 'null'){
+      up.addEventListener("click", dirFuns[0], {once : true}, true);
+    }
+    if (dirFuns[1] !== 'null'){
+      down.addEventListener("click", dirFuns[1], {once : true}, true);
+    }
   }
 }
 
@@ -279,13 +280,15 @@ function goDown(currFloor, lowerFloor, back, area, map, backFun, upFun){
     lowerFun = function() {
       shrink(lowerFloor, area, map, up, down, dirFuns);
     }
-    back.addEventListener("click", lowerFun, {once : true}, true);
-  }
-}
 
-function wipe(old_thing) {
-  var new_thing = old_thing.cloneNode(true);
-  old_thing.parentNode.replaceChild(new_thing, old_thing);
+    back.addEventListener("click", lowerFun, {once : true}, true);
+    if (dirFuns[0] !== 'null'){
+      up.addEventListener("click", dirFuns[0], {once : true}, true);
+    }
+    if (dirFuns[1] !== 'null'){
+      down.addEventListener("click", dirFuns[1], {once : true}, true);
+    }
+  }
 }
 
 //Database
