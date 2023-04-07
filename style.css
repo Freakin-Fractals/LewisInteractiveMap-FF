@@ -20,6 +20,10 @@
     user-select: none;
 }
 
+.no-select{
+    user-select: none;
+}
+
 .stack-label{
     position: relative;
     z-index: 9;
@@ -487,4 +491,161 @@
     position: absolute;
     top: 36%;
     left: 40.5%;
+}
+
+/*Labels for AS building */
+.Room-102A{
+    position: absolute;
+    top: 49%;
+    left: 41%;
+}
+
+.Room-104A{
+    position: absolute;
+    top: 49%;
+    left: 44.5%;
+}
+
+.Room-106A{
+    position: absolute;
+    top: 49%;
+    left: 48%;
+}
+
+.Room-155A{
+    position: absolute;
+    top: 59%;
+    left: 41%;
+}
+
+.Room-157A{
+    position: absolute;
+    top: 59%;
+    left: 44.5%;
+}
+
+.Room-159A{
+    position: absolute;
+    top: 59%;
+    left: 48%;
+}
+
+.Room-156A{
+    position: absolute;
+    top: 73%;
+    left: 41.5%;
+}
+
+.Room-150A {
+    position: absolute;
+    top: 73%;
+    left: 38%;
+}
+
+.Room-158A {
+    position: absolute;
+    top: 71%;
+    left: 46%;
+}
+
+.Room-132A {
+    position: absolute;
+    top: 56%;
+    left: 36%;
+}
+
+.Room-134A {
+    position: absolute;
+    top: 61%;
+    left: 36%;
+}
+
+.Room-101S {
+    position: absolute;
+    top: 72%;
+    left: 53%;
+}
+
+.Room-104S {
+    position: absolute;
+    top: 64%;
+    left: 53.5%;
+}
+
+.Room-108S {
+    position: absolute;
+    top: 58%;
+    left: 54%;
+}
+
+.Room-110S {
+    position: absolute;
+    top: 58%;
+    left: 57%;
+}
+
+.Room-112S {
+    position: absolute;
+    top: 58%;
+    left: 60.5%;
+}
+
+.Room-118S {
+    position: absolute;
+    top: 58%;
+    left: 64.5%;
+}
+
+.Room-120S {
+    position: absolute;
+    top: 58%;
+    left: 67.5%;
+}
+
+.Room-124S {
+    position: absolute;
+    top: 59%;
+    left: 70%;
+}
+
+.Room-130S {
+    position: absolute;
+    top: 71%;
+    left: 70%;
+}
+
+.Room-134S {
+    position: absolute;
+    top: 74%;
+    left: 66%;
+}
+
+.Room-138S {
+    position: absolute;
+    top: 74%;
+    left: 60.5%;
+}
+
+.Room-140S {
+    position: absolute;
+    top: 74%;
+    left: 57%;
+}
+
+.Room-107S {
+    position: absolute;
+    top: 66.5%;
+    left: 56.8%;
+}
+
+.Room-113S {
+    position: absolute;
+    top: 66.5%;
+    left: 60%
+}
+
+.Room-119S {
+    position: absolute;
+    top: 66.5%;
+    left: 64%;
 }
