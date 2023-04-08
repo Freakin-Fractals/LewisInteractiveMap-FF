@@ -850,3 +850,260 @@
     left: 59.3%;
     font-size: 10px;
 }
+
+/*Labels for Lower Floor of AS building */
+
+.Room-019S {
+    position: absolute;
+    top: 75%;
+    left: 55.5%;
+}
+
+.Room-018S {
+    position: absolute;
+    top: 67%;
+    left: 55%;
+}
+
+.Room-032S {
+    position: absolute;
+    top: 85%;
+    left: 55.5%;
+}
+
+.Room-030S {
+    position: absolute;
+    top: 85.5%;
+    left: 59.5%;
+}
+
+.Room-028S {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+.Room-025S {
+    position: absolute;
+    top: 76%;
+    left: 60%;
+}
+
+.Room-024S {
+    position: absolute;
+    top: 70%;
+    left: 60.5%;
+}
+
+.Room-020S {
+    position: absolute;
+    top: 67%;
+    left: 58.3%;
+    font-size: 10px;
+}
+
+.Room-052S {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+}
+
+.Room-054S {
+    position: absolute;
+    top: 67%;
+    left: 47%;
+}
+
+.Room-036S {
+    position: absolute;
+    top: 85%;
+    left: 49%;
+}
+
+.Room-056S {
+    position: absolute;
+    top: 85%;
+    left: 42%;
+}
+
+.Room-058S {
+    position: absolute;
+    top: 76%;
+    left: 42%;
+}
+
+.Room-060S {
+    position: absolute;
+    top: 69%;
+    left: 42%;
+}
+
+.Room-057S {
+    position: absolute;
+    top: 78%;
+    left: 48%;
+    font-size: 10px;
+}
+
+.Room-059S {
+    position: absolute;
+    top: 78%;
+    left: 46.7%;
+    font-size: 10px;
+}
+
+.Room-053S {
+    position: absolute;
+    top: 74%;
+    left: 48%;
+    font-size: 10px;
+}
+
+.Room-055S {
+    position: absolute;
+    top: 74%;
+    left: 46.7%;
+    font-size: 10px;
+}
+
+.Room-033L {
+    position: absolute;
+    top: 57.5%;
+    left: 41.6%;
+    font-size: 10px;
+}
+
+.Room-032L {
+    position: absolute;
+    top: 54%;
+    left: 41.7%;
+    font-size: 10px;
+}
+
+.Room-031L {
+    position: absolute;
+    top: 51.2%;
+    left: 41.7%;
+    font-size: 10px;
+}
+
+.Room-030L {
+    position: absolute;
+    top: 47%;
+    left: 42%;
+    font-size: 10px;
+}
+
+.Room-029L {
+    position: absolute;
+    top: 44%;
+    left: 42.4%;
+    font-size: 10px;
+}
+
+.Room-028L {
+    position: absolute;
+    top: 40.7%;
+    left: 42.9%;
+    font-size: 10px;
+}
+
+.Room-027L {
+    position: absolute;
+    top: 38%;
+    left: 43.4%;
+    font-size: 10px;
+}
+
+.Room-026L {
+    position: absolute;
+    top: 34.6%;
+    left: 44.4%;
+    font-size: 10px;
+}
+
+.Room-025L {
+    position: absolute;
+    top: 32%;
+    left: 45.2%;
+    font-size: 10px;
+}
+
+.Room-024L {
+    position: absolute;
+    top: 29.2%;
+    left: 46.4%;
+    font-size: 10px;
+}
+
+.Room-021L {
+    position: absolute;
+    top: 23%;
+    left: 47.5%;
+}
+
+.Room-018L {
+    position: absolute;
+    top: 20%;
+    left: 44%;
+}
+
+.Room-014L {
+    position: absolute;
+    top: 20%;
+    left: 39%;
+}
+
+.Room-008L {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.Room-004L {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.Room-016L {
+    position: absolute;
+    top: 20%;
+    left: 41.7%;
+    font-size: 10px;
+}
+
+.Room-006L {
+    position: absolute;
+    top: 20%;
+    left: 32.7%;
+    font-size: 10px;
+}
+
+.Room-020L {
+    position: absolute;
+    top: 25.4%;
+    left: 44.5%;
+    font-size: 12px;
+}
+
+.Room-012L {
+    position: absolute;
+    top: 25.4%;
+    left: 38.5%; 
+    font-size: 12px;
+}
+
+.Room-010L {
+    position: absolute;
+    top: 25.4%;
+    left: 35.5%;
+    font-size: 12px;
+}
+
+.Room-002L {
+    position: absolute;
+    top: 25.4%;
+    left: 29%;
+    font-size: 13px;
+}
