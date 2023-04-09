@@ -301,7 +301,6 @@ window.onload = function() {
       return csv().fromString(csvtext);
   }).then(function(csv) {
       csv.forEach(function(row) {
-          main.innerHTML += "---------------------------------"
           main.innerHTML += "<h3>" + row.Name + "</h3>";
           main.innerHTML += "<h3>" + row.RoomNumber + "</h3>";
           main.innerHTML += "<h3>" + row.Email + "</h3>";
