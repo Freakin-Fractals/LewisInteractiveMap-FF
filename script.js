@@ -1,5 +1,3 @@
-console.clear();
-
 var root  = document.documentElement;
 var body  = document.body;
 var pages = document.querySelectorAll(".mainFloor");
@@ -185,7 +183,6 @@ function goUp(currFloor, upperFloor, back, area, map, backFun, downFun){
     down.removeEventListener("click", downFun, {once : true}, true);
   }
 
-  console.log(currFloor);
   var clone = upperFloor.cloneNode(true);
         
   var to = calculatePosition(currFloor);
@@ -243,7 +240,6 @@ function goDown(currFloor, lowerFloor, back, area, map, backFun, upFun){
     up.removeEventListener("click", upFun, {once : true}, true);
   }
 
-  console.log(currFloor);
   var clone = currFloor.cloneNode(true);
         
   var from = calculatePosition(currFloor);
