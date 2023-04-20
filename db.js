@@ -36,13 +36,49 @@ window.onload = function() {
         console.log(profLNames);
         console.log(profEmails);
         console.log(profONum);
-        console.log(formatProfInfo(profFNames[1], profLNames[1], profEmails[1], profONum[1]));
+        //console.log(formatProfInfo(profFNames[1], profLNames[1], profEmails[1], profONum[1]));
 
     });
 }
 
 function formatProfInfo(profFirstName, profLastName, profEmail, ProfRoom) {
-    return prof = "Name: " + profFirstName + " " + profLastName + "\n" + "Email: " + profEmail + "\n" + "Room: " + ProfRoom;
+    alert(prof = "Name: " + profFirstName + " " + profLastName + "\n" + "Email: " + profEmail + "\n" + "Room: " + ProfRoom);
 }
+//First set of offices infrom of room 104A 
+function profOne() {
+    formatProfInfo(profFNames[0], profLNames[0], profEmails[0], profONum[0]);
+}
+
+function profTwo() {
+    formatProfInfo(profFNames[4], profLNames[4], profEmails[4], profONum[4]);
+}
+
+function profThree() {
+    formatProfInfo(profFNames[16], profLNames[16], profEmails[16], profONum[16]);
+}
+function profFour() {
+    formatProfInfo(profFNames[12], profLNames[12], profEmails[12], profONum[12]);
+}
+function profFive() {
+    formatProfInfo(profFNames[9], profLNames[9], profEmails[9], profONum[9]);
+}
+function profSix() {
+    formatProfInfo(profFNames[13], profLNames[13], profEmails[13], profONum[13]);
+}
+function profSeven() {
+    formatProfInfo(profFNames[15], profLNames[15], profEmails[15], profONum[15]);
+}
+function profEight() {
+    formatProfInfo(profFNames[10], profLNames[10], profEmails[10], profONum[10]);
+}
+function profNine() {
+    formatProfInfo(profFNames[5], profLNames[5], profEmails[5], profONum[5]);
+}
+function profTen() {
+    formatProfInfo(profFNames[14], profLNames[14], profEmails[14], profONum[14]);
+}
+
+
+
 
 
