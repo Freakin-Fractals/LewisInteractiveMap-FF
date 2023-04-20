@@ -46,7 +46,7 @@
 }
 
 .click {
-    opacity: 0%;
+    opacity: 50%;
 }
 
 .floor {
@@ -171,326 +171,326 @@
 
 .sancta-alberta{
     position: absolute;
-    top: 48%;
-    left: 45%;
+    top: 51.6%;
+    left: 49%;
 }
 
 .sheil-hall{
     position: absolute;
-    top: 54%;
-    left: 41%;
+    top: 58%;
+    left: 36.1%;
 }
 
 .south-hall{
     position: absolute;
-    top: 72%;
-    left: 36%;
+    top: 77.25%;
+    left: 22%;
 }
 
 .sports-center{
     position: absolute;
-    top: 53.5%;
-    left: 38%;
+    top: 57%;
+    left: 29.5%;
 }
 
 .stritch-hall{
     position: absolute;
-    top: 35%;
-    left: 48%;
+    top: 37.6%;
+    left: 56.75%;
 }
 
 .west-hall{
     position: absolute;
-    top: 69.5%;
-    left: 32.5%;
+    top: 74%;
+    left: 14%;
 }
 
 .stcharles-borromeo{
     position: absolute;
-    top: 9.5%;
-    left: 53.5%;
+    top: 9%;
+    left: 70%;
 }
 
 .fitzpatrick-house{
     position: absolute;
-    top: 90%;
-    left: 62%;
+    top: 96%;
+    left: 96%;
 }
 
 .lot-A{
     position: absolute;
-    top: 38%;
-    left: 53%;
+    top: 42%;
+    left: 72%;
 }
 
 .lot-AA{
     position: absolute;
-    top: 41%;
-    left: 54%;
+    top: 43.75%;
+    left: 73%;
 }
 
 .lot-B{
     position: absolute;
-    top: 34%;
-    left: 49%;
+    top: 37.4%;
+    left: 59.75%;
 }
 
 .lot-BB{
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 32%;
+    left: 63%;
 }
 
 .lot-C{
     position: absolute;
-    top: 29%;
-    left: 45%;
+    top: 32%;
+    left: 48%;
 }
 
 .lot-D{
     position: absolute;
-    top: 35%;
-    left: 44%;
+    top: 38%;
+    left: 44.5%;
 }
 
 .lot-E{
     position: absolute;
-    top: 35%;
-    left: 38%;
+    top: 36.5%;
+    left: 26.5%;
 }
 
 .lot-F{
     position: absolute;
-    top: 45%;
-    left: 35%;
+    top: 48.5%;
+    left: 18%;
 }
 
 .lot-G{
     position: absolute;
-    top: 44%;
-    left: 38.5%;
+    top: 47.5%;
+    left: 29.5%;
 }
 
 .lot-GG{
     position: absolute;
-    top: 54%;
-    left: 35%;
+    top: 55%;
+    left: 20%;
 }
 
 .lot-L{
     position: absolute;
-    top: 55%;
-    left: 52%;
+    top: 59%;
+    left: 66%;
 }
 
 .lot-M{
     position: absolute;
-    top: 62%;
-    left: 47%;
+    top: 67%;
+    left: 55%;
 }
 
 .lot-MM{
     position: absolute;
-    top: 62.5%;
+    top: 67.5%;
     left: 43%;
 }
 
 .lot-N{
     position: absolute;
-    top: 64%;
-    left: 35%;
+    top: 69%;
+    left: 20%;
 }
 
 .lot-NN{
     position: absolute;
-    top: 72%;
-    left: 30%;
+    top: 75%;
+    left: 7%;
 }
 
 .lot-O{
     position: absolute;
-    top: 74.5%;
-    left: 45%;
+    top: 79.5%;
+    left: 48%; 
 }
 
 .lot-P{
     position: absolute;
-    top: 63%;
-    left: 39%;
+    top: 67%;
+    left: 31%;
 }
 
 .lot-Q{
     position: absolute;
-    top: 72%;
-    left: 46.5%;
+    top: 77.5%;
+    left: 50.5%;
 }
 
 .lot-S{
     position: absolute;
-    top: 67.5%;
-    left: 50%;
+    top: 72%;
+    left: 62%;
 }
 
 .lot-SB1{
     position: absolute;
-    top: 12%;
-    left: 57.2%;
+    top: 14%;
+    left: 83%;
 }
 
 .lot-SB2{
     position: absolute;
-    top: 3.5%;
-    left: 54%;
+    top: 4.5%;
+    left: 73.4%;
 }
 
 .lot-SB3{
     position: absolute;
-    top: 3.5%;
-    left: 50.5%;
+    top: 4.5%;
+    left: 63.5%;
 }
 
 .lot-SB4{
     position: absolute;
-    top: 4%;
-    left: 47.5%;
+    top: 5.5%;
+    left: 56%;
 }
 
 .lot-SB5{
     position: absolute;
-    top: 9.5%;
-    left: 48.5%;
+    top: 11%;
+    left: 59.25%;
 }
 
 .lot-T{
     position: absolute;
-    top: 79%;
-    left: 52%;
+    top: 84%;
+    left: 67.4%;
 }
 
 .lot-U{
     position: absolute;
-    top: 78%;
-    left: 39.5%;
+    top: 83.5%;
+    left: 32%;
 }
 
 .lot-V{
     position: absolute;
-    top: 72.5%;
-    left: 34.5%;
+    top: 77.5%;
+    left: 19%;
 }
 
 .lot-W{
     position: absolute;
-    top: 64.5%;
-    left: 55.5%;
+    top: 69%;
+    left: 78%;
 }
 
 .lot-X{
     position: absolute;
-    top: 81%;
-    left: 44%;
+    top: 86%;
+    left: 45%;
 }
 
 .lot-Y{
     position: absolute;
-    top: 81%;
-    left: 36%;
+    top: 86%;
+    left: 23%;
 }
 
 .lot-Z{
     position: absolute;
-    top: 90%;
-    left: 42.5%;
+    top: 96%;
+    left: 41%;
 }
 
 .lot-ZZ{
     position: absolute;
-    top: 89.5%;
-    left: 36%;
+    top: 95%;
+    left: 22.5%;
 }
 
 .Memorial-Plaza{
     position: absolute;
-    top: 53%;
-    left: 40%;
+    top: 56%;
+    left: 33%;
 }
 
 .Br-Leo-Circle{
     position: absolute;
-    top: 59%;
-    left: 45.5%;
+    top: 62.75%;
+    left: 49.5%;
 }
 
 .The-Brother{
     position: absolute;
-    top: 45%;
-    left: 43%;
+    top: 46%;
+    left: 42%;
 }
 
 .Cordano-Heritage{
     position: absolute;
-    top: 48%;
+    top: 51.5%;
     left: 43%;
 }
 
 .The-Encounter{
     position: absolute;
-    top: 56%;
-    left: 45.5%;
+    top: 59.5%;
+    left: 48.5%;
 }
 
 .Flyers-Pavilion{
     position: absolute;
-    top: 86%;
-    left: 33%;
+    top: 91%;
+    left: 13%;
 }
 
 .Founders-Garden{
     position: absolute;
-    top: 46%;
-    left: 44.5%;
+    top: 49%;
+    left: 46.5%;
 }
 
 .The-Glen{
     position: absolute;
-    top: 44%;
-    left: 53%;
+    top: 46.5%;
+    left: 70.5%;
 }
 
 .Memorial-Flag-Plaza{
     position: absolute;
-    top: 48%;
-    left: 52%;
+    top: 51.25%;
+    left: 67%;
 }
 
 .Pavilion-on-the-Green{
     position: absolute;
-    top: 47%;
-    left: 41%;
+    top: 49.5%;
+    left: 37.5%;
 }
 
 .Peace-Garden{
     position: absolute;
-    top: 29%;
-    left: 47%;
+    top: 31%;
+    left: 53%;
 }
 
 .Time-Plaza{
     position: absolute;
-    top: 52%;
-    left: 43%;
+    top: 55.5%;
+    left: 42%;
 }
 
 .Veteran-Memorial{
     position: absolute;
-    top: 84%;
-    left: 40%;
+    top: 87%;
+    left: 33.5%;
 }
 
 .Wadsworth-Family{
     position: absolute;
-    top: 36%;
-    left: 40.5%;
+    top: 39%;
+    left: 35.5%;
 }
 
 /*Labels for AS building */
