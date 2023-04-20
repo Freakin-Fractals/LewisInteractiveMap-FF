@@ -51,7 +51,7 @@ function grow(hero, area, map, back, up, down) {
     
     gsap.set([map, label], { visibility: "hidden" });
     gsap.set(back, { visibility: "visible" });
-    gsap.set(hero, { visibility: "visible" });
+    gsap.set(findRooms(hero), { visibility: "visible" });
 
     function backFun() {}
 
@@ -81,14 +81,16 @@ function shrink(hero, area, map, up, down, dirFuns) {
   if (dirFuns[1] !== 'null'){
     down.removeEventListener("click", dirFuns[1], {once : true}, true);
   }
-
+    
+    gsap.set(findRooms(hero), { visibility: "hidden" });
+    gsap.set(hero, { visibility: "visible" });
     var clone = hero.cloneNode(true);
         
     var from = calculatePosition(hero);
     var to = calculatePosition(area);
   
-    gsap.set(hero, { visibility: "hidden" });
     gsap.set([back, up, down], { visibility: "hidden" });
+    gsap.set(hero, { visibility: "hidden" });
     gsap.set([map, label], { visibility: "visible" });
     gsap.set(clone, { position: "absolute", margin: 0 });
     
@@ -130,6 +132,12 @@ function calculatePosition(element) {
     height: rect.height,
     width: rect.width,
   };
+}
+
+function findRooms(element){
+  var buildingRooms = element.classList[1];
+  var floorsRooms = document.querySelectorAll("." + buildingRooms);
+  return Array.from(floorsRooms);
 }
 
 function findFloors(element){
@@ -193,7 +201,7 @@ function goUp(currFloor, upperFloor, back, area, map, backFun, downFun){
     left: 0,
   };
   
-  gsap.set(currFloor,{ visibility: "hidden" });
+  gsap.set(findRooms(currFloor), { visibility: "hidden" });
   gsap.set(clone, { position: "absolute", margin: 0 });
     
 
@@ -215,7 +223,7 @@ function goUp(currFloor, upperFloor, back, area, map, backFun, downFun){
     body.removeChild(clone);
 
     gsap.set(up,{ visibility: "hidden" });
-    gsap.set(upperFloor, { visibility: "visible" });
+    gsap.set(findRooms(upperFloor), { visibility: "visible" });
 
     back.removeEventListener("click", backFun, {once : true}, true);
     
@@ -246,8 +254,8 @@ function goDown(currFloor, lowerFloor, back, area, map, backFun, upFun){
         
   var from = calculatePosition(currFloor);
   
-  gsap.set(currFloor, { visibility: "hidden" });
-  gsap.set(lowerFloor, { visibility: "visible" });
+  gsap.set(findRooms(currFloor), { visibility: "hidden" });
+  gsap.set(findRooms(lowerFloor), { visibility: "visible" });
   gsap.set(clone, { position: "absolute", margin: 0 });
     
 
