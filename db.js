@@ -20,23 +20,29 @@ window.onload = function() {
     }).then(
         function(csv) {
         csv.forEach(function(row) {
-            main.innerHTML += "<h3>" + row.First + " " + row.Last + "</h3>";
+            //main.innerHTML += "<h3>" + row.First + " " + row.Last + "</h3>";
             profFNames.push(row.First);
             profLNames.push(row.Last);
-            main.innerHTML += "<h3>" + row.Email + "</h3>";
+            //main.innerHTML += "<h3>" + row.Email + "</h3>";
             profEmails.push(row.Email);
-            main.innerHTML += "<h3>" + row.OfficeLocation + "</h3>";
+            //main.innerHTML += "<h3>" + row.OfficeLocation + "</h3>";
             profONum.push(row.OfficeLocation);
-            main.innerHTML += "---------------------------------"
+            //main.innerHTML += "---------------------------------"
             profInfo.push(row)
         })
+
+        console.log(profInfo);
+        console.log(profFNames);
+        console.log(profLNames);
+        console.log(profEmails);
+        console.log(profONum);
+        console.log(formatProfInfo(profFNames[1], profLNames[1], profEmails[1], profONum[1]));
+
     });
 }
 
-console.log(profInfo);
-console.log(profFNames);
-console.log(profLNames);
-console.log(profEmails);
-console.log(profONum);
+function formatProfInfo(profFirstName, profLastName, profEmail, ProfRoom) {
+    return prof = "Name: " + profFirstName + " " + profLastName + "\n" + "Email: " + profEmail + "\n" + "Room: " + ProfRoom;
+}
 
-console.log(profFNames[1]);
+
