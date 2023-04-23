@@ -494,6 +494,14 @@
 }
 
 /*Labels for AS building */
+.Title-AS{
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+    top: 0%;
+    left: 41%;
+}
+
 .Room-102A{
     position: absolute;
     top: 49%;
@@ -1263,3 +1271,64 @@
     top: 31.5%;
     left: 28%;
 }
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+  }
+  
+  .map-container {
+    position: relative;
+    height: 100px; /* Set the height of the container */
+    width: 80%; /* Set the width of the container */
+    max-width: 1000px; /* Set a max width for the container */
+  }
+
+  .legend {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+  }
+  
+  .compass {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }  
+  
+  .legend h3 {
+    margin-top: 0;
+    margin-right: 20px;
+  }
+  
+  .legend ul {
+    list-style: none;
+    margin: 20;
+    padding: 0;
+  }
+  
+  .legend li {
+    margin-bottom: 5px;
+  }
+
+  #my-label:hover {
+    color: red;
+  }  
+  
+  .symbol {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  

@@ -15,13 +15,16 @@
 <body>
     <h1>Lewis University Interactive map</h1>
     <div class="total-container">
+
+        
+
         <!--The big map-->
         <div class="box map">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
                 <image width="1200" height="600" xlink:href="croppedCampusMap.jpg" class=""></image>
              </svg>
         </div>
-        
+
         <!--Labels for the buildings-->
         <div class="box stack-label unselectable">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" ></svg>
@@ -115,6 +118,23 @@
             </svg>
         </div>
 
+        <!--maplegend-->
+        <div class="wrapper">
+            <div class="map-container">
+                <div class="box map"></div>
+                <div class="legend">
+                    <img src="compass.jpg" class="compass" alt="Compass">
+                    <h3>Legend</h3>
+                    <ul>
+                        <li><span class="symbol" style="background-color: red;"></span> Parking</li>
+                        <li><span class="symbol" style="background-color: blue;"></span> Buildings</li>
+                        <li><span class="symbol" style="background-color: green;"></span> Landmarks</li>
+                    </ul>
+                    <label id="my-label">Hover over me</label>
+                </div>
+            </div>
+        </div>
+
         <!--Buttons for zoomed maps-->
         <div class="box stack-button button">
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
@@ -199,6 +219,7 @@
             <rect target="_blank" alt="EricPogueClass" title="EricPogueClass" href="https://www.lewisu.edu/" coords="386,278,340,345" shape="rect" fill="#ff6975" opacity="100%">
             </svg>
             <!--Labels for Main Floor-->
+            <div class="Title-AS no-select">Arts and Sciences</div>
             <div class="Room-102A no-select">102A</div>
             <div class="Room-104A no-select">104A</div>
             <div class="Room-106A no-select">106A</div>
