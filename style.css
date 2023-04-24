@@ -20,6 +20,11 @@
     user-select: none;
 }
 
+.building{
+    position: absolute;
+    opacity: 100%;
+}
+
 .no-select{
     user-select: none;
 }
