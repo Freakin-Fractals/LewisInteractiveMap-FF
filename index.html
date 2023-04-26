@@ -103,6 +103,7 @@
 
         <!--clickable areas for the buildings-->
         <div class="box stack-clickable">
+            <!--Add the maps in the same order these clickable areas are listed-->
             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1300 630" >
                 <polygon class="area click" points="620,284 569,285 568,272 562,260 552,260 551,247 578,247 578,243 595,243 606,237 610,243 598,254 595,263 598,268 620,268" fill="#ff6975"></polygon>
                 <polygon class="FA click" points="512,227 498,241 523,264 529,254 516,240 520,234" fill="#ff6975"></polygon>
@@ -140,6 +141,8 @@
                 <image class="up" xlink:href="up.png" x="0" y="58" width="73" height="58" opacity="100%"></image>
                 <image class="down" xlink:href="down.png" x="0" y="116" width="73" height="58" opacity="100%"></image>
 
+                <!--ALL ROOMS FOLLOW THIS: class="{building + floor} click"-->
+
                 <!--AS 0th floor rooms-->
                 <rect class="AS0 click" x="200" y="400" width="20" height="20" fill="#ff6975" opacity="100%"></rect>
                 <!--AS 1st floor rooms-->
@@ -160,6 +163,8 @@
                 <rect class="AS2 click" x="400" y="200" width="20" height="20" fill="#ff6975" opacity="100%"></rect>
             </svg>
         </div>
+
+        <!--ALL BUILDING MAPS FOLLOW THIS: class="{building} {building + floor} floor {if main floor: mainFloor; else: nothing here} box stack-zoomed"-->
 
         <!--SVG for AS lower floor-->
         <div class="AS AS0 floor box stack-zoomed">
