@@ -79,7 +79,9 @@ function profTen() { //Professor Alzoubi
     formatProfInfo(profFNames[14], profLNames[14], profEmails[14], profONum[14]);
 }
 
-
+function test() {
+    window.alert("Im working");
+}
 
 
 
