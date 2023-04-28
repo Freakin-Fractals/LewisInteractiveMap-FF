@@ -1280,6 +1280,230 @@
     top: 27.5%;
     left: 28%;
 }
+/* Labels for DL 1st floor classes*/
+.DLRoom-141L{
+    position: absolute;
+    top: 7%;
+    left: 39.7%;
+    font-size: .6vw;
+}
+
+.DLRoom-142{
+    position: absolute;
+    top: 9.5%;
+    left: 46%;
+}
+
+.DLRoom-135{
+    position: absolute;
+    top: 32.5%;
+    left: 29%;
+}
+
+.DLRoom-135A{
+    position: absolute;
+    top: 40.5%;
+    left: 28.2%;
+}
+
+.DLRoom-127A{
+    position: absolute;
+    top: 32.5%;
+    left: 33.5%;
+}
+
+.DLRoom-136{
+    position: absolute;
+    top: 35.5%;
+    left: 33.5%;
+    font-size: .8vw;
+}
+
+.DLRoom-134{
+    position: absolute;
+    top: 38.5%;
+    left: 33.5%;
+}
+
+.DLRoom-127{
+    position: absolute;
+    top: 32.5%;
+    left: 36.5%;
+}
+
+.DLRoom-133{
+    position: absolute;
+    top: 38.5%;
+    left: 36%;
+}
+
+.DLRoom-132C{
+    position: absolute;
+    top: 48.5%;
+    left: 31.8%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-132D{
+    position: absolute;
+    top: 43.5%;
+    left: 33.3%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-132{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-132A{
+    position: absolute;
+    top: 49%;
+    left: 35%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-132B{
+    position: absolute;
+    top: 49%;
+    left: 33.3%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-120{
+    position: absolute;
+    top: 34%;
+    left: 46%;
+}
+
+.DLRoom-122{
+    position: absolute;
+    top: 44.2%;
+    left: 42%;
+}
+
+.DLRoom-121{
+    position: absolute;
+    top: 46.5%;
+    left: 46%;
+}
+
+.DLRoom-101{
+    position: absolute;
+    top: 30.7%;
+    left: 57.6%;
+}
+
+.DLRoom-101A{
+    position: absolute;
+    top: 21.8%;
+    left: 61.5%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-101B{
+    position: absolute;
+    top: 21.8%;
+    left: 60.1%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-101C{
+    position: absolute;
+    top: 21.8%;
+    left: 56.5%;
+}
+
+.DLRoom-100{
+    position: absolute;
+    top: 39.5%;
+    left: 63.5%;
+}
+
+.DLRoom-102{
+    position: absolute;
+    top: 43.5%;
+    left: 59%;
+}
+
+.DLRoom-103{
+    position: absolute;
+    top: 52.5%;
+    left: 59%;
+}
+
+.DLRoom-104{
+    position: absolute;
+    top: 50.2%;
+    left: 56.2%;
+}
+
+.DLRoom-105{
+    position: absolute;
+    top: 50%;
+    left: 53.6%;
+}
+
+.DLRoom-106{
+    position: absolute;
+    top: 54.5%;
+    left: 54.5%;
+}
+
+.DLRoom-125{
+    position: absolute;
+    top: 72.5%;
+    left: 39.9%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-124{
+    position: absolute;
+    top: 70.2%;
+    left: 41.7%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-124A{
+    position: absolute;
+    top: 67.3%;
+    left: 41.7%;
+}
+
+.DLRoom-124B{
+    position: absolute;
+    top: 67.3%;
+    left: 43.7%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-124C{
+    position: absolute;
+    top: 68.3%;
+    left: 44.9%;
+    font-size: 0.6vw;
+}
+
+.DLRoom-124D{
+    position: absolute;
+    top: 72.6%;
+    left: 44%;
+}
+
+.DLRoom-124E{
+    position: absolute;
+    top: 72.6%;
+    left: 41.7%;
+}
+
+.DLRoom-112{
+    position: absolute;
+    top: 70.6%;
+    left: 48%;
+}
+
 
 .wrapper {
     display: flex;
@@ -1295,12 +1519,8 @@
     max-width: 1000px; /* Set a max width for the container */
 }
 
-<<<<<<< HEAD
-.legend {
-=======
   /* map legend implementation  */
   .legend {
->>>>>>> d2f2398211da03482280a15e115946f7825457fe
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1332,15 +1552,7 @@
   
 .legend li {
     margin-bottom: 5px;
-<<<<<<< HEAD
-}
-
-#my-label:hover {
-    color: red;
-}  
-=======
   }
->>>>>>> d2f2398211da03482280a15e115946f7825457fe
   
 .symbol {
     display: inline-block;
