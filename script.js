@@ -11,18 +11,6 @@ var back = document.querySelector(".back");
 var up = document.querySelector(".up");
 var down = document.querySelector(".down");
 
-/*/begin test hoverable 
-const myLabel = document.querySelector('#my-label');
-
-myLabel.addEventListener('mouseover', () => {
-  myLabel.style.color = 'red';
-});
-
-myLabel.addEventListener('mouseout', () => {
-  myLabel.style.color = '';
-});
-/*///end test hoverable 
-
 //Adding an event listener for all of the buildings
 for (var i = 0; i < pages.length; i++) {  
   addListeners(pages[i], area[i], map, back, up, down);
